@@ -25,8 +25,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build-ghpages --if-present
+    - run: npm install yarn -g
+    - run: yarn
+    - run: yarn build-ghpages --if-present
     -
       name: Checkout
       uses: actions/checkout@v2
