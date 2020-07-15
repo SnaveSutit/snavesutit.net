@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "next build && next export"
+    "build-ghpages": "next build && next export"
   },
   "keywords": [],
   "author": "",
