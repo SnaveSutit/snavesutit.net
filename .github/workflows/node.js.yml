@@ -29,6 +29,10 @@ jobs:
       - run: yarn build-ghpages
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: debug
+      - run: ls
+      - run: dir
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
