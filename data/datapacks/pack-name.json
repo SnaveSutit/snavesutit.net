@@ -1,0 +1,29 @@
+{
+  "title": "Pack Name",
+  "blob": "pack-name",
+  "description": "the most awesome data pack ever with a long desc...",
+  "overview": "the most awesome data pack ever",
+  "icon": "https://via.placeholder.com/128/500",
+  "source": "https://github.com/IanSSenne/mcbuild",
+  "downloads": {
+    "1.16.1": {
+      "url": "https://github.com/IanSSenne/mcbuild/archive/master.zip",
+      "version": "1.2.3"
+    }
+  },
+  "assets": [
+    {
+      "type": "video",
+      "alt": "the best how to use video ever",
+      "url": "https://www.youtube.com/watch?v=EE-xtCF3T94"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x500/300"
+    }
+  ],
+  "gameVersions": [
+    "1.17"
+  ]
+}
