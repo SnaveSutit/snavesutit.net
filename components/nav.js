@@ -35,6 +35,7 @@ const Nav = ({ path }) => (
         position:fixed;
         top:0;
         left:0;
+        z-index:100;
         text-align: center;
         width:calc(100vw + 16px);
         height:64px;

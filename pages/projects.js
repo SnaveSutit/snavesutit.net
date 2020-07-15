@@ -24,7 +24,6 @@ export default () => (
               </Link>
             </div>
             <div>
-
               <Link href="/maps">
                 <a>
                   <div>
@@ -34,7 +33,6 @@ export default () => (
               </Link>
             </div>
             <div>
-
               <Link href="/resourcepacks">
                 <a>
                   <div>
@@ -77,6 +75,19 @@ export default () => (
       .items>div>a>div{
         width:300px;
         height:300px;
+
+      }
+      .items>div{
+        z-index:0;
+        transform:scale(1.0);
+        transition-property:transform;
+        transition:0.2s;
+      }
+      .items>div:hover{
+        z-index:1;
+        transform:scale(1.1);
+        transition-property:transform;
+        transition:0.2s;
       }
       `}
     </style>
