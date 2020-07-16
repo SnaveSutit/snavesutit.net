@@ -17,7 +17,7 @@ export default () => (
             <div>
               <Link href="/datapacks">
                 <a>
-                  <div>
+                  <div className="datapacks">
                     Data Packs
                   </div>
                 </a>
@@ -26,7 +26,7 @@ export default () => (
             <div>
               <Link href="/maps">
                 <a>
-                  <div>
+                  <div className="maps">
                     Maps
                   </div>
                 </a>
@@ -35,7 +35,7 @@ export default () => (
             <div>
               <Link href="/resourcepacks">
                 <a>
-                  <div>
+                  <div className="resourcepacks">
                     Resource Packs
                   </div>
                 </a>
@@ -55,6 +55,8 @@ export default () => (
         color:white;
       }
       .items{
+        margin-left:auto;
+        margin-right:auto;
         padding-left:2em;
         padding-right:2em;
         width:100%;
@@ -63,25 +65,25 @@ export default () => (
         align-items:middle;
       }
       .items>div{
-        width:300px;
-        height:300px;
-        margin-left:auto;
-        margin-bottom:5px;
-        margin-right:auto;
+        width:250px;
+        height:250px;
+        margin-bottom:1em;
+        margin-right:1em;
         background-color:#c3c3c3;
         border-radius:22px;
         overflow:hidden;
-      }
-      .items>div>a>div{
-        width:300px;
-        height:300px;
-
-      }
-      .items>div{
         z-index:0;
         transform:scale(1.0);
         transition-property:transform;
         transition:0.2s;
+      }
+      .items>div>a>div{
+        width:250px;
+        height:250px;
+        text-align: center;
+        padding-top: 80%;
+        font-size: 30px;
+        color:gray;
       }
       .items>div:hover{
         z-index:1;
@@ -89,6 +91,18 @@ export default () => (
         transition-property:transform;
         transition:0.2s;
       }
+      .datapacks{
+        background-image:url(https://via.placeholder.com/250/300);
+        background-size: cover;
+      }
+      .maps{
+        background-image:url(https://via.placeholder.com/250/500);
+        background-size: cover;
+      }
+      .resourcepacks{
+        background-image:url(https://via.placeholder.com/250/700);
+        background-size: cover;
+      } 
       `}
     </style>
   </div>

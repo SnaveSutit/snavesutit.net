@@ -3,18 +3,18 @@ import React from "react";
 import { Grid } from 'semantic-ui-react';
 import Link from "next/link";
 export function DatapackPreview({ pack }) {
-    return <>
-        <Link href="/datapacks/[blob]" as={`/datapacks/${pack.blob}`}>
-            <a className="wrapper">
-                <div className="icon" style={{ width: "128px", height: "128px", backgroundImage: `url(${pack.icon})` }}></div>
-                <div className="info">
-                    <p className="title">{pack.title}</p>
-                    <p className="versions">{pack.versions.join(", ")}</p>
-                    <p className="overview">{pack.overview}</p>
-                </div>
-            </a>
-        </Link>
-        <style jsx>{`
+  return <>
+    <Link href="/datapacks/[blob]" as={`/datapacks/${pack.blob}`}>
+      <a className="wrapper">
+        <div className="icon" style={{ width: "128px", height: "128px", backgroundImage: `url(${pack.icon})`, backgroundSize: "cover" }}></div>
+        <div className="info">
+          <p className="title">{pack.title}</p>
+          <p className="versions">{pack.versions.join(", ")}</p>
+          <p className="overview">{pack.overview}</p>
+        </div>
+      </a>
+    </Link>
+    <style jsx>{`
       .icon{
           margin-top:9px;
           margin-left:9px;
@@ -58,5 +58,5 @@ export function DatapackPreview({ pack }) {
           width:calc(500px - 138px)
       }
     `}</style>
-    </>;
+  </>;
 }
