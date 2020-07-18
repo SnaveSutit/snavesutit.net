@@ -22,6 +22,12 @@ export default (props) => {
         {props.data.map(datapack => {
           return <Preview key={datapack.blob} type="datapack" pack={datapack}></Preview>
         })}
+
+        {props.data.length === 0 && <div style={{ color: "white", textAlign: "center" }}>
+          <h1 style={{ marginTop: "128px" }}>No Projects found</h1>
+          <br />
+          <p>Please check back in later.</p>
+        </div>}
       </Grid.Column>
     </Grid>
   </div>;

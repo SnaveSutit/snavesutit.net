@@ -94,15 +94,15 @@ export default () => (
         transition:0.2s;
       }
       .datapacks{
-        background-image:url(https://via.placeholder.com/250/300);
+        background-image:url(datapack.png);
         background-size: cover;
       }
       .maps{
-        background-image:url(https://via.placeholder.com/250/500);
+        background-image:url(maps.png);
         background-size: cover;
       }
       .resourcepacks{
-        background-image:url(https://via.placeholder.com/250/700);
+        background-image:url(resourcepack.png);
         background-size: cover;
       } 
       `}
