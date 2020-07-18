@@ -5,7 +5,7 @@ import fs from "fs";
 import React from "react";
 import Head from '../components/head'
 import Nav from '../components/nav'
-import { DatapackPreview } from '../components/DatapackPreview';
+import { Preview } from '../components/Preview';
 export default (props) => {
   return <div>
     <Head
@@ -20,7 +20,7 @@ export default (props) => {
         display: "contents"
       }}>
         {props.data.map(datapack => {
-          return <DatapackPreview key={datapack.blob} pack={datapack}></DatapackPreview>
+          return <Preview key={datapack.blob} pack={datapack} type="resourcepack"></Preview>
         })}
       </Grid.Column>
     </Grid>
