@@ -144,13 +144,13 @@ export async function getStaticPaths() {
         paths: [],
         fallback: false
     }
-    const files = await fs.promises.readdir(path.join(process.cwd(), "./data/resourcepack"));
+    const files = await fs.promises.readdir(path.join(process.cwd(), "./data/resourcepacks"));
     for (let file of files) {
 
         if (file.indexOf(".gitkeep") > -1) {
             continue;
         }
-        const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/resourcepack", file), "utf-8"));
+        const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/resourcepacks", file), "utf-8"));
         res.paths.push(
             { params: { blob: data.blob } });
     }
@@ -159,6 +159,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
 
-    const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/resourcepack", context.params.blob + ".json"), "utf-8"));
+    const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/resourcepacks", context.params.blob + ".json"), "utf-8"));
     return { props: data }
 }
