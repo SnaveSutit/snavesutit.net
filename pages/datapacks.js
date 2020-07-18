@@ -15,7 +15,7 @@ export default (props) => {
       url="snavesutit.net/datapacks"
     ></Head>
     <Nav path="/projects"></Nav>
-    <Grid centered columns={1} style={{ marginTop: 80, width: "100vw", overflowX: "wrap" }}>
+    <Grid centered columns={1} style={{ paddingTop: "80px", width: "100vw", overflowX: "wrap" }}>
       <Grid.Column style={{
         display: "contents"
       }}>
@@ -32,6 +32,9 @@ export async function getStaticProps(context) {
   const files = await fs.promises.readdir(path.join(process.cwd(), "./data/datapacks"));
   const props = [];
   for (const file of files) {
+    if (file.indexOf(".gitkeep") > -1) {
+      continue;
+    }
     const item = {};
     const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/datapacks", file), "utf-8"));
     item.title = data.title;

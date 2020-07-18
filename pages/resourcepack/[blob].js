@@ -4,7 +4,7 @@ import React from "react";
 import Head from "../../components/head";
 import Nav from "../../components/nav";
 import { Grid, Dropdown, Button } from "semantic-ui-react";
-import 'semantic-ui-css/semantic.min.css';
+import 'semantic-ui-css/semantic.min.css'
 import { Viewer } from "../../components/Viewer";
 
 function Slides({ assets }) {
@@ -20,7 +20,7 @@ export default (content) => {
             title="SnaveSutit - Data Packs"
             description="Data Packs made by SnaveSutit"
             keywords="datapack SnaveSutit"
-            url="snavesutit.net/datapacks"
+            url="snavesutit.net/resourcepack"
         ></Head>
         <Nav path="/projects"></Nav>
         <Grid centered columns={1} style={{ marginTop: 80, width: "100vw", overflowX: "wrap" }}>
@@ -144,12 +144,13 @@ export async function getStaticPaths() {
         paths: [],
         fallback: false
     }
-    const files = await fs.promises.readdir(path.join(process.cwd(), "./data/datapacks"));
+    const files = await fs.promises.readdir(path.join(process.cwd(), "./data/resourcepack"));
     for (let file of files) {
+
         if (file.indexOf(".gitkeep") > -1) {
             continue;
         }
-        const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/datapacks", file), "utf-8"));
+        const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/resourcepack", file), "utf-8"));
         res.paths.push(
             { params: { blob: data.blob } });
     }
@@ -158,6 +159,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
 
-    const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/datapacks", context.params.blob + ".json"), "utf-8"));
+    const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/resourcepack", context.params.blob + ".json"), "utf-8"));
     return { props: data }
 }

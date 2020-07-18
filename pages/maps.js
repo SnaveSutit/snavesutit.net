@@ -32,6 +32,9 @@ export async function getStaticProps(context) {
   const files = await fs.promises.readdir(path.join(process.cwd(), "./data/maps"));
   const props = [];
   for (const file of files) {
+    if (file.indexOf(".gitkeep") > -1) {
+      continue;
+    }
     const item = {};
     const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/maps", file), "utf-8"));
     item.title = data.title;

@@ -1,0 +1,199 @@
+{
+  "title": "Pack Name",
+  "blob": "pack-name-4",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "overview": "the most awesome data pack ever but with a slightly longer description",
+  "icon": "https://via.placeholder.com/128/500",
+  "source": "https://github.com/IanSSenne/mcbuild",
+  "downloads": {
+    "1.16.1": {
+      "url": "https://github.com/IanSSenne/mcbuild/archive/master.zip",
+      "version": "1.2.3"
+    },
+    "1.16.2": {
+      "url": "https://github.com/IanSSenne/mcbuild/archive/master.zip",
+      "version": "1.2.3"
+    },
+    "1.16.3": {
+      "url": "https://github.com/IanSSenne/mcbuild/archive/master.zip",
+      "version": "1.2.3"
+    }
+  },
+  "assets": [
+    {
+      "type": "video",
+      "alt": "the best how to use video ever",
+      "url": "https://www.youtube.com/watch?v=EE-xtCF3T94"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    },
+    {
+      "type": "image",
+      "alt": "the best image ever",
+      "url": "https://via.placeholder.com/300x300/300"
+    }
+  ],
+  "gameVersions": [
+    "1.16",
+    "1.16.1",
+    "1.17"
+  ]
+}

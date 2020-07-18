@@ -1,4 +1,4 @@
-import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css';
 import { Container, Grid, Image } from 'semantic-ui-react'
 import path from "path";
 import fs from "fs";
@@ -32,6 +32,9 @@ export async function getStaticProps(context) {
   const files = await fs.promises.readdir(path.join(process.cwd(), "./data/resourcepacks"));
   const props = [];
   for (const file of files) {
+    if (file.indexOf(".gitkeep") > -1) {
+      continue;
+    }
     const item = {};
     const data = JSON.parse(await fs.promises.readFile(path.join(process.cwd(), "./data/resourcepacks", file), "utf-8"));
     item.title = data.title;
