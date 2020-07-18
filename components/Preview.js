@@ -2,9 +2,9 @@
 import React from "react";
 import { Grid } from 'semantic-ui-react';
 import Link from "next/link";
-export function DatapackPreview({ pack }) {
+export function Preview({ pack, type }) {
   return <>
-    <Link href="/datapacks/[blob]" as={`/datapacks/${pack.blob}`}>
+    <Link href={`/${type}/[blob]`} as={`/${type}/${pack.blob}`}>
       <a className="wrapper">
         <div className="icon" style={{ width: "128px", height: "128px", backgroundImage: `url(${pack.icon})`, backgroundSize: "cover" }}></div>
         <div className="info">

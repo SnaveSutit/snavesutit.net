@@ -10,9 +10,8 @@ export default () => (
       <Grid.Row>
         <Nav path="/projects"></Nav>
       </Grid.Row>
-      <Grid centered columns={2} style={{ marginTop: 80, textAlign: "center" }}>
+      <Grid centered columns={1} style={{ marginTop: 80, textAlign: "center" }}>
         <Grid.Column>
-          <h3>Minecraft</h3>
           <div className="items">
             <div>
               <Link href="/datapacks">
@@ -43,9 +42,6 @@ export default () => (
             </div>
           </div>
         </Grid.Column>
-        <Grid.Column>
-          <h3>Other</h3>
-        </Grid.Column>
       </Grid>
     </Grid>
     <style jsx>
@@ -67,8 +63,6 @@ export default () => (
       .items>div{
         width:250px;
         height:250px;
-        margin-bottom:1em;
-        margin-right:1em;
         background-color:#c3c3c3;
         border-radius:22px;
         overflow:hidden;
@@ -76,6 +70,14 @@ export default () => (
         transform:scale(1.0);
         transition-property:transform;
         transition:0.2s;
+        margin-left:2em;
+        margin-right:2em;
+      }
+      .items>div:first-child{
+        margin-left:auto;
+      }
+      .items>div:last-child{
+        margin-right:auto;
       }
       .items>div>a>div{
         width:250px;
