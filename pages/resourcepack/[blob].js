@@ -20,7 +20,7 @@ export default (content) => {
             title="SnaveSutit - Data Packs"
             description="Data Packs made by SnaveSutit"
             keywords="datapack SnaveSutit"
-            url="snavesutit.net/resourcepack"
+            url="snavesutit.net/datapacks"
         ></Head>
         <Nav path="/projects"></Nav>
         <Grid centered columns={1} style={{ marginTop: 80, width: "100vw", overflowX: "wrap" }}>
@@ -76,8 +76,7 @@ export default (content) => {
                             </div>
                         </Grid.Column>
                         <Grid.Column>
-                            <p>
-                                <div dangerouslySetInnerHTML={{ __html: content.description }}></div>
+                            <p dangerouslySetInnerHTML={{ __html: content.description }} style={{ paddingLeft: "2em", paddingRight: "2em" }}>
                             </p>
                             <Slides assets={content.assets}></Slides>
                         </Grid.Column>

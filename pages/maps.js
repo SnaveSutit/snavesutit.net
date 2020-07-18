@@ -12,15 +12,15 @@ export default (props) => {
       title="SnaveSutit - Data Packs"
       description="Data Packs made by SnaveSutit"
       keywords="datapack SnaveSutit"
-      url="snavesutit.net/maps"
+      url="snavesutit.net/datapacks"
     ></Head>
     <Nav path="/projects"></Nav>
-    <Grid centered columns={1} style={{ marginTop: 80, width: "100vw", overflowX: "wrap" }}>
+    <Grid centered columns={1} style={{ paddingTop: "80px", width: "100vw", overflowX: "wrap" }}>
       <Grid.Column style={{
         display: "contents"
       }}>
         {props.data.map(datapack => {
-          return <Preview key={datapack.blob} pack={datapack} type="map"></Preview>
+          return <Preview key={datapack.blob} type="datapack" pack={datapack}></Preview>
         })}
       </Grid.Column>
     </Grid>
