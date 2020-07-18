@@ -4,16 +4,8 @@ import React from "react";
 import Head from "../../components/head";
 import Nav from "../../components/nav";
 import { Grid, Dropdown, Button } from "semantic-ui-react";
-import { BsDownload } from "react-icons/bs";
-import { AiOutlineGithub } from "react-icons/ai";
 import 'semantic-ui-css/semantic.min.css'
-import ReactPlayer from "react-player";
-import Alice from "react-alice-carousel";
-import 'react-alice-carousel/lib/alice-carousel.css'
 import { Viewer } from "../../components/Viewer";
-const YoutubeSlide = ({ url }) => (
-    <ReactPlayer width="100%" url={url} controls={true} />
-);
 
 function Slides({ assets }) {
     return (
