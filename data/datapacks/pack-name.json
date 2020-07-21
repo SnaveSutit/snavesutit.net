@@ -1,219 +1,30 @@
 {
-  "title": "Pack Name",
-  "blob": "pack-name",
-  "description": "the most awesome data pack ever with a long desc...",
-  "overview": "the most awesome data pack ever",
-  "icon": "https://s3-alpha-sig.figma.com/img/2b30/d19c/da879788465d7453eb781462dbcdf25a?Expires=1595808000&Signature=PSReKBLneQyAbcKMelEIW4nCE6DyIi9s9nsX~ZtoDX32B8DU0G0RTID4moXLdgJmP5gcJBRczXA3CXMJ4-WCgrNCuDZqv~WvUvm2sObFVzk0IsEaKIY~HHBiwyaM1v~GKfNEbekPxyiSdOVU6JqmIdB1fneXhoBikB9nFTBswjKq8uM12dHaYEkUIwZWEpZsiWMyj3CFVmv~nt0hlf2j2ruFGLC2bPSdiKQsQELbcj89plaP-KZ9jIfkQY3QLkju0jx5GXWsbqk~ynn4cWasO0r-~DLPnNa2WaUZ-8~KTBWsW89stGL1P~S3ikHDVpMkQ6PlRK-ezEJuTmrwhDMWWg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "source": "https://github.com/IanSSenne/mcbuild",
+  "title": "Durability Ping",
+  "blob": "durability-ping",
+  "description": "Adds a configurable visual/autitorial notification that lets you know whether your tool's durability is low. You can enable/disable sound and popups, as well as choose between 4 different types of popup notifications: Chat, Title, Toast, and Action Bar.",
+  "overview": "Lets you know when your tool's durability is low",
+  "icon": "https://drive.google.com/uc?export=view&id=1V6yK0-cvDtc2HBA0LGFfY97uD9g8hbAK",
+  "source": "",
   "downloads": {
+    "20w28a": {
+      "url": "https://drive.google.com/uc?export=download&id=1LW5YbG419QsPdz--4vqpw5RtYrf1AF-9",
+      "version": "1.0"
+    },
+    "20w29a": {
+      "url": "https://drive.google.com/uc?export=download&id=1LW5YbG419QsPdz--4vqpw5RtYrf1AF-9",
+      "version": "1.0"
+    },
     "1.16.1": {
-      "url": "https://github.com/IanSSenne/mcbuild/archive/master.zip",
-      "version": "1.2.3"
+      "url": "https://drive.google.com/uc?export=download&id=1LW5YbG419QsPdz--4vqpw5RtYrf1AF-9",
+      "version": "1.0"
+    },
+    "1.16": {
+      "url": "https://drive.google.com/uc?export=download&id=1LW5YbG419QsPdz--4vqpw5RtYrf1AF-9",
+      "version": "1.0"
     }
   },
-  "assets": [
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    },
-    {
-      "type": "video",
-      "alt": "the best how to use video ever",
-      "url": "https://www.youtube.com/watch?v=jKre9Wl_5YA"
-    },
-    {
-      "type": "image",
-      "alt": "the best image ever",
-      "url": "https://via.placeholder.com/300x500/300"
-    }
-  ],
+  "assets": [],
   "gameVersions": [
-    "1.17"
+    "1.16, 1.16.1, 20w28a, 20w29a"
   ]
 }
