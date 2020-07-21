@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fdatapacks","\u002F","\u002Fmaps","\u002Fresourcepacks","\u002Fdatapack\u002F[blob]","\u002Fmap\u002F[blob]","\u002Fresourcepack\u002F[blob]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

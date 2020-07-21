@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);
+/* .rec.rec-carousel-wrapper {
+    margin: 100px 0 0 0;
+    min-height: 180px;
+    max-height: 180px; } */
+.rec.rec-carousel-wrapper:focus,
+.rec.rec-carousel-wrapper .rec-carousel:focus,
+.rec.rec-carousel-wrapper .rec-slider-container:focus,
+.rec.rec-carousel-wrapper .rec-slider-container .rec-slider:focus,
+.rec.rec-carousel-wrapper .rec-slider-container .rec-slider div:focus {
+  outline: none;
+}
+.rec.rec-carousel-wrapper .rec-carousel button {
+  /* display: none; */
+}
+.rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec {
+  box-shadow: none;
+  background: rgba(0, 0, 0, 0.1);
+}
+.rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec.rec-dot_active {
+  background: #5e5e5e;
+}
+.rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec {
+  background: #8e8e8e;
+}
+
